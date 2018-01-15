@@ -13,3 +13,5 @@ class AES(BlockCipher):
 
     def keylen_valid(self, key):
         return len(key) in (16, 24, 32)
+
+block_size = 16
